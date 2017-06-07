@@ -1,4 +1,4 @@
-# Javascript Calculator
+# Pomodoro Timer
 
 Demo: https://rzencoder.github.io/Pomodoro-Timer/
 
