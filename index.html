@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="row">
+        <div class="title">POMODORO<br>TIMER</div>
+        <div class="q1"></div>
+        <div class="q2"></div>
+      </div>
+      <div class="row">
+        <div id="pomoTime">24:00</div>
+        <div class="start dial">START</div>
+        <div class="q3">
+          <div class="dials">
+            <div>DURATION</div>
+            <div class="input">
+              <div id="pomoMinus" class="dial">-</div>
+              <div id="duration" class="timer">24:00</div>
+              <div id="pomoPlus" class="dial">+</div>
+            </div>
+          </div>
+        </div>
+        <div class="q4">
+          <div class="dials">
+            <div>BREAK</div>
+            <div class="input">
+              <div id="breakMinus" class="dial">-</div>
+              <div id="breakTime" class="timer">6:00</div>
+              <div id="breakPlus" class="dial">+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <audio src="./alarm.mp3" preload></audio>
+    <script
+       src="https://code.jquery.com/jquery-3.2.1.js"
+       integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+       crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
